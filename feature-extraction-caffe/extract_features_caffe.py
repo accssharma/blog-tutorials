@@ -14,7 +14,6 @@ import sys
 import pickle
 import caffe
 import numpy as np
-import csv
    
 # returns batch of image of size "batch_size"
 def get_this_batch(image_list, batch_index, batch_size):
