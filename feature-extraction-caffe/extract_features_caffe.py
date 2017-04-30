@@ -16,7 +16,7 @@ import caffe
 import numpy as np
 import csv
    
-# Method that returns batch of image of size "batch_size"
+# returns batch of image of size "batch_size"
 def get_this_batch(image_list, batch_index, batch_size):
     start_index = batch_index * batch_size
     next_batch_size = batch_size    
